@@ -1,0 +1,52 @@
+userName: ${BROWSERSTACK_USERNAME}
+accessKey: ${BROWSERSTACK_ACCESS_KEY}
+
+framework: playwright  # Chỉ định framework là Playwright
+
+# Định nghĩa các platforms để test (cross-browser)
+platforms:
+  # - os: Windows
+  #   osVersion: 11
+  #   browserName: playwright-chromium
+  #   browserVersion: latest
+  #   # Tùy chọn Playwright cụ thể (nếu cần)
+  #   playwrightConfigOptions:
+  #     use:
+  #       # Ví dụ: Bật trace viewer cho debugging
+  #       trace: 'on'
+  #       channel: 'chrome'
+        # Base URL nếu cần (tùy chọn)
+        # baseURL: 'https://playwright.dev/'
+  - os: OS X
+    osVersion: Ventura
+    browserName: playwright-webkit  # WebKit cho Safari
+    browserVersion: latest
+    playwrightConfigOptions:
+      use:
+        trace: 'on'
+  # - os: Windows
+  #   osVersion: 11
+  #   browserName: playwright-firefox
+  #   browserVersion: latest
+  #   playwrightConfigOptions:
+  #     use:
+  #       trace: 'on'
+
+# Tùy chọn Local Testing (nếu test localhost/staging)
+browserstackLocal: false  # Set true nếu cần test nội bộ
+
+# Tên build và project để tổ chức trên dashboard
+buildName: playwright-sdk-build-${BUILD_NUMBER:-1}  # ${BUILD_NUMBER} cho CI/CD
+projectName: Playwright BrowserStack Project
+
+# Mở khóa features: Bật Test Reporting & Analytics
+testObservability: true  # Tự động thu thập data cho reporting thông minh
+
+# Các tùy chọn debug (tùy chọn, nhưng khuyến nghị)
+debug: true  # Bật visual logs
+consoleLogs: info  # Console logs
+networkLogs: true  # Network logs
+
+# Tích hợp nâng cao (tùy chọn)
+# accessibility: true  # Nếu cần test accessibility
+# percy: true  # Nếu dùng Percy visual testing

@@ -1,0 +1,23 @@
+{
+  "name": "pw-browserstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx browserstack-node-sdk playwright test",
+    "test-local": "npx browserstack-node-sdk playwright test --grep @local",
+    "test-chrome": "npx browserstack-node-sdk playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "browserstack-node-sdk": "^1.41.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}

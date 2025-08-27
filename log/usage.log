@@ -1,0 +1,1337 @@
+2025-08-26 16:34:24 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 16:34:24 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:34:24 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:34:24 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:34:24 - [32minfo[39m: SDK run started with id: ff8c87e4-7567-43ac-b041-8c64b1df427c
+2025-08-26 16:34:24 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:34:31 - [32minfo[39m: Local binary started successfully
+2025-08-26 16:34:24 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:34:24 - [32minfo[39m: SDK run started with id: ff8c87e4-7567-43ac-b041-8c64b1df427c
+2025-08-26 16:34:24 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:34:31 - [32minfo[39m: Local binary started successfully
+2025-08-26 16:34:33 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:34:33 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:34:33 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:34:33 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:34:34 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:34:34 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:34:34 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"c1407d08-6e62-48e1-a6d7-574786b49f00","listen":"unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock"}
+2025-08-26 16:34:34 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"c1407d08-6e62-48e1-a6d7-574786b49f00","listen":"unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock"}
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: c1407d08-6e62-48e1-a6d7-574786b49f00 and listen address: unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: c1407d08-6e62-48e1-a6d7-574786b49f00 and listen address: unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:34:34 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:34:41 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:34:41 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:34:41 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:34:43 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20410)
+    at BrowserstackCLI.bootstrap (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5881)
+    at Object._modifyPlaywright (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23459)
+    at Object.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module.newCompile2 (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Object.newLoader2 [as .ts] (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:135:16)
+    at requireOrImport (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:107:89)
+    at loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:119:28)
+    at TestRunner._loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:335:22)
+    at TestRunner._loadConfigOrReportError (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:349:31)
+    at TestRunner.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:158:20)
+    at TestServerDispatcher.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testServer.js:151:24)
+    at i.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-08-26 16:34:43 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-08-26 16:34:43 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:43 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock
+2025-08-26 16:34:43 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:34:44 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:34:44 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:34:44 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:44 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:34:44 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:34:44 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:34:44 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 16:34:44 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=62129:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 16:34:44 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=adefbb4e65baa32739bc7657eb03318fa7a51d5689bf477437846153f4802f44 target=62129:0
+2025-08-26 16:34:45 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:45 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock
+2025-08-26 16:34:45 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:34:45 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:34:45 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:34:45 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:45 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:34:45 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:34:45 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:34:45 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:45 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:34:45 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:34:45 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:34:45 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=62141:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:34:45 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=a86d43dcbbdefe7e42c58755d7edd5a4fc7e10634b6155023bc02ffe96e43958 target=62141:0
+2025-08-26 16:34:45 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#1","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"chrome","browser_version":"latest","browserstack.testhubBuildUuid":"e9mogvaramkog0lucztzglowwomu2b0ncehkq1oo","browserstack.local":true,"browserstack.localIdentifier":"Aug_26_1634_Spaces-MacBook.lan_i0vb"} 
+2025-08-26 16:34:55 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:34:55 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:34:55 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-5eb582297e5f3412b29e
+2025-08-26 16:34:56 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '9ef5954e-ed6e-417b-b108-e5d1b5532c9b',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '9ef5954e-ed6e-417b-b108-e5d1b5532c9b',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - has title',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-5eb582297e5f3412b29e',
+  test_name: 'has title',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await (0, _test.expect)(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:34:45.356Z',
+  test_scope: 'example.spec.ts - has title',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts has title'
+}
+2025-08-26 16:34:56 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:34:56 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:34:56 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:34:56 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:34:56 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:34:56 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:34:56 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:34:57 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:57 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c1407d08-6e62-48e1-a6d7-574786b49f00.sock
+2025-08-26 16:34:57 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:34:57 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:34:57 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:34:57 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:57 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:34:57 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:34:57 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:34:57 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:34:57 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:34:57 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c1407d08-6e62-48e1-a6d7-574786b49f00
+2025-08-26 16:34:57 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:34:57 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=62185:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:34:57 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=d6c8516361e771a7baa6efcebe33f7d556ff711f33896d5b568f220fdc21a4b0 target=62185:0
+2025-08-26 16:34:57 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#1","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"chrome","browser_version":"latest","browserstack.testhubBuildUuid":"e9mogvaramkog0lucztzglowwomu2b0ncehkq1oo","browserstack.local":true,"browserstack.localIdentifier":"Aug_26_1634_Spaces-MacBook.lan_i0vb"} 
+2025-08-26 16:35:07 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:35:07 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:35:07 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9
+2025-08-26 16:35:07 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '59804125-f5e8-483a-a922-a54c5fe922f9',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '59804125-f5e8-483a-a922-a54c5fe922f9',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - get started link',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9',
+  test_name: 'get started link',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:10',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await (0, _test.expect)(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:34:57.195Z',
+  test_scope: 'example.spec.ts - get started link',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts get started link'
+}
+2025-08-26 16:35:07 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:35:07 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:35:07 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:35:07 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:35:07 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:35:07 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:35:07 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:36:53 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 16:36:53 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:36:53 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:36:53 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:36:53 - [32minfo[39m: SDK run started with id: 0aa974cc-73d6-4284-a6c7-0d2dc0e4ec0a
+2025-08-26 16:36:53 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:36:58 - [32minfo[39m: Local binary started successfully
+2025-08-26 16:36:53 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:36:53 - [32minfo[39m: SDK run started with id: 0aa974cc-73d6-4284-a6c7-0d2dc0e4ec0a
+2025-08-26 16:36:53 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:36:58 - [32minfo[39m: Local binary started successfully
+2025-08-26 16:37:00 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:37:00 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:37:00 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:37:00 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:37:00 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:37:00 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:37:00 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"9552afdf-8afb-4462-b296-b65158d1b0e5","listen":"unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock"}
+2025-08-26 16:37:00 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"9552afdf-8afb-4462-b296-b65158d1b0e5","listen":"unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock"}
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 9552afdf-8afb-4462-b296-b65158d1b0e5 and listen address: unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 9552afdf-8afb-4462-b296-b65158d1b0e5 and listen address: unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:37:00 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:37:07 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:37:07 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:37:07 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:37:08 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20410)
+    at BrowserstackCLI.bootstrap (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5881)
+    at Object._modifyPlaywright (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23459)
+    at Object.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module.newCompile2 (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Object.newLoader2 [as .ts] (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:135:16)
+    at requireOrImport (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:107:89)
+    at loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:119:28)
+    at TestRunner._loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:335:22)
+    at TestRunner._loadConfigOrReportError (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:349:31)
+    at TestRunner.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:158:20)
+    at TestServerDispatcher.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testServer.js:151:24)
+    at i.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-08-26 16:37:08 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-08-26 16:37:09 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:09 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock
+2025-08-26 16:37:09 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:37:10 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:37:10 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:37:10 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:10 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:37:10 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:37:10 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:37:10 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 16:37:10 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=62919:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 16:37:10 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=de8b43b7c2e5ac4584f6c411ebc2fd970ed7fe75845cca60603715f97cf5d3c3 target=62919:0
+2025-08-26 16:37:11 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:11 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock
+2025-08-26 16:37:11 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:37:11 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:37:11 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:37:11 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:11 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:37:11 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:37:11 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:37:11 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:11 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:37:11 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:37:11 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:37:11 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=62932:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:37:11 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=35cc46fde8e2e47286af2976bec64095fb0153cda94eeb0f91e7d7742e66fb61 target=62932:0
+2025-08-26 16:37:11 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#2","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on","baseURL":"https://playwright.dev/"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"chrome","browser_version":"latest","browserstack.testhubBuildUuid":"abnmu4haoxbodkd9ankjk594fitdxszxmrlw6uds","browserstack.local":true,"browserstack.localIdentifier":"Aug_26_1637_Spaces-MacBook.lan_gbde"} 
+2025-08-26 16:37:21 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:37:21 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:37:21 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-5eb582297e5f3412b29e
+2025-08-26 16:37:21 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'a9a3fca1-b9b5-4263-a31a-1c88e9f0f3dc',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'a9a3fca1-b9b5-4263-a31a-1c88e9f0f3dc',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - has title',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-5eb582297e5f3412b29e',
+  test_name: 'has title',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await (0, _test.expect)(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:37:11.229Z',
+  test_scope: 'example.spec.ts - has title',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts has title'
+}
+2025-08-26 16:37:21 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:37:21 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:37:21 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:37:21 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:37:21 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:37:21 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:37:21 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:37:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-9552afdf-8afb-4462-b296-b65158d1b0e5.sock
+2025-08-26 16:37:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:37:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:37:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:37:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:37:22 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:37:22 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:37:22 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:37:22 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:37:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 9552afdf-8afb-4462-b296-b65158d1b0e5
+2025-08-26 16:37:22 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:37:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=62964:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:37:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=cf4a5e75709e02debee929a03d2cd489381331caa5c5c0ee04ed4af3ef8aec79 target=62964:0
+2025-08-26 16:37:22 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#2","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on","baseURL":"https://playwright.dev/"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"chrome","browser_version":"latest","browserstack.testhubBuildUuid":"abnmu4haoxbodkd9ankjk594fitdxszxmrlw6uds","browserstack.local":true,"browserstack.localIdentifier":"Aug_26_1637_Spaces-MacBook.lan_gbde"} 
+2025-08-26 16:37:31 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:37:31 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:37:31 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9
+2025-08-26 16:37:31 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '69024ca3-fb09-4ad7-b222-0ace6c8ceb18',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '69024ca3-fb09-4ad7-b222-0ace6c8ceb18',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - get started link',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9',
+  test_name: 'get started link',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:10',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await (0, _test.expect)(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:37:22.470Z',
+  test_scope: 'example.spec.ts - get started link',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts get started link'
+}
+2025-08-26 16:37:31 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:37:31 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:37:31 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:37:31 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:37:31 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:37:31 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:37:31 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:42:37 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 16:42:37 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:42:37 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:42:37 - [32minfo[39m: SDK run started with id: 976a0a59-ac10-45f8-bedc-1020f7c4fb3a
+2025-08-26 16:42:37 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:42:37 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:42:37 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:42:37 - [32minfo[39m: SDK run started with id: 976a0a59-ac10-45f8-bedc-1020f7c4fb3a
+2025-08-26 16:42:37 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:42:38 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:42:38 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:42:38 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:42:38 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:42:39 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:42:39 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:42:39 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"e6cfde89-aba6-4113-8f66-1c7944d71797","listen":"unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock"}
+2025-08-26 16:42:39 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"e6cfde89-aba6-4113-8f66-1c7944d71797","listen":"unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock"}
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: e6cfde89-aba6-4113-8f66-1c7944d71797 and listen address: unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: e6cfde89-aba6-4113-8f66-1c7944d71797 and listen address: unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:42:39 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:42:41 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:42:41 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:42:41 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:42:43 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20410)
+    at BrowserstackCLI.bootstrap (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5881)
+    at Object._modifyPlaywright (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23459)
+    at Object.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module.newCompile2 (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Object.newLoader2 [as .ts] (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:135:16)
+    at requireOrImport (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:107:89)
+    at loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:119:28)
+    at TestRunner._loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:335:22)
+    at TestRunner._loadConfigOrReportError (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:349:31)
+    at TestRunner.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:158:20)
+    at TestServerDispatcher.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testServer.js:151:24)
+    at i.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-08-26 16:42:43 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-08-26 16:42:43 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:43 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock
+2025-08-26 16:42:43 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:42:44 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:42:44 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:42:44 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:44 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:42:44 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:42:44 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:42:44 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 16:42:44 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=64766:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 16:42:44 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=b22a87207abc92f436624772620296d1d98a84548b9d89fe8b33e80783dc9efc target=64766:0
+2025-08-26 16:42:45 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:45 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock
+2025-08-26 16:42:45 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:42:45 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:42:45 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:42:45 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:45 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:42:45 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:42:45 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:42:45 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:45 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:42:45 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:42:45 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:42:45 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=64778:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:42:45 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=7f726340d91ecd2775f9033a6147a0aa08fbf7b4373455ab74d1938c31d1f3cf target=64778:0
+2025-08-26 16:42:45 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#3","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"chromium","browser_version":"latest","browserstack.testhubBuildUuid":"druwjseud5xn85kforavbuuu6rl80uodshifgtvi","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 16:42:47 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:42:47 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-5eb582297e5f3412b29e
+2025-08-26 16:42:47 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'ff806826-9fc9-4f04-acf2-79998331c9ba',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'ff806826-9fc9-4f04-acf2-79998331c9ba',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - has title',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-5eb582297e5f3412b29e',
+  test_name: 'has title',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await (0, _test.expect)(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:42:45.309Z',
+  test_scope: 'example.spec.ts - has title',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts has title'
+}
+2025-08-26 16:42:47 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:42:47 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:42:47 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:42:47 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:42:47 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:42:47 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:42:47 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:42:48 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:48 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e6cfde89-aba6-4113-8f66-1c7944d71797.sock
+2025-08-26 16:42:48 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:42:48 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:42:48 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:42:48 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:48 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:42:48 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:42:48 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:42:48 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:42:48 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:42:48 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e6cfde89-aba6-4113-8f66-1c7944d71797
+2025-08-26 16:42:48 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:42:48 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=64792:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:42:48 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=2b0da96b02077b06fd9ad70feaab4c2db91769551fd714914c60fba0fc7ef201 target=64792:0
+2025-08-26 16:42:48 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#3","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"chromium","browser_version":"latest","browserstack.testhubBuildUuid":"druwjseud5xn85kforavbuuu6rl80uodshifgtvi","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 16:42:50 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:42:50 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9
+2025-08-26 16:42:50 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '227307bc-967b-4d34-9562-0d4f3498b827',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '227307bc-967b-4d34-9562-0d4f3498b827',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - get started link',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9',
+  test_name: 'get started link',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:10',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await (0, _test.expect)(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:42:48.583Z',
+  test_scope: 'example.spec.ts - get started link',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts get started link'
+}
+2025-08-26 16:42:50 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:42:50 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:42:50 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:42:50 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:42:50 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:42:50 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:42:50 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:44:22 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 16:44:22 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:44:22 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:44:22 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:44:22 - [32minfo[39m: SDK run started with id: 493d1502-ab02-4f02-ba95-1912f90a6605
+2025-08-26 16:44:22 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:44:22 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:44:22 - [32minfo[39m: SDK run started with id: 493d1502-ab02-4f02-ba95-1912f90a6605
+2025-08-26 16:44:22 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:44:23 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:44:23 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:44:23 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:44:23 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:44:24 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:44:24 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:44:25 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"a5ef018d-2a1d-4669-b49a-436748ccb68e","listen":"unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock"}
+2025-08-26 16:44:25 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"a5ef018d-2a1d-4669-b49a-436748ccb68e","listen":"unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock"}
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: a5ef018d-2a1d-4669-b49a-436748ccb68e and listen address: unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: a5ef018d-2a1d-4669-b49a-436748ccb68e and listen address: unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:44:25 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:44:26 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:44:26 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=a5ef018d-2a1d-4669-b49a-436748ccb68e
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=a5ef018d-2a1d-4669-b49a-436748ccb68e
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:44:26 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:44:27 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20410)
+    at BrowserstackCLI.bootstrap (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5881)
+    at Object._modifyPlaywright (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23459)
+    at Object.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module.newCompile2 (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Object.newLoader2 [as .ts] (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:135:16)
+    at requireOrImport (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:107:89)
+    at loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:119:28)
+    at TestRunner._loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:335:22)
+    at TestRunner._loadConfigOrReportError (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:349:31)
+    at TestRunner.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:158:20)
+    at TestServerDispatcher.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testServer.js:151:24)
+    at i.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-08-26 16:44:27 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-08-26 16:44:27 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: a5ef018d-2a1d-4669-b49a-436748ccb68e
+2025-08-26 16:44:27 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock
+2025-08-26 16:44:27 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:44:28 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:44:28 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:44:28 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=a5ef018d-2a1d-4669-b49a-436748ccb68e
+2025-08-26 16:44:28 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:44:28 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:44:28 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:44:28 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 16:44:28 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=65292:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 16:44:28 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=b77e2db81829f0bfdd8063235c886a300460a72de98dfaad96f4e89ced855bb6 target=65292:0
+2025-08-26 16:44:29 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: a5ef018d-2a1d-4669-b49a-436748ccb68e
+2025-08-26 16:44:29 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-a5ef018d-2a1d-4669-b49a-436748ccb68e.sock
+2025-08-26 16:44:29 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:44:29 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:44:29 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:44:29 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=a5ef018d-2a1d-4669-b49a-436748ccb68e
+2025-08-26 16:44:29 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:44:29 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:44:29 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:44:29 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: a5ef018d-2a1d-4669-b49a-436748ccb68e
+2025-08-26 16:44:29 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:44:29 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:44:29 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:44:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=65305:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:44:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=25dfb6b907490325e90c0e876d06871cb77f4505e3a6805436b0b97087e1711f target=65305:0
+2025-08-26 16:44:29 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#4","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-chromium","browser_version":"latest","browserstack.testhubBuildUuid":"gsg5kx5bpaowpjkhbqmtl61bjaqtvklojcigtriv","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 16:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:44:38 - [31merror[39m: Error while getting test UUID for a30a6eba6312f6b87ea5-5eb582297e5f3412b29e: ENOENT: no such file or directory, open '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined/a30a6eba6312f6b87ea5-5eb582297e5f3412b29e.json'
+2025-08-26 16:44:38 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-5eb582297e5f3412b29e
+2025-08-26 16:44:38 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {}
+2025-08-26 16:44:38 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:44:38 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:44:38 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:44:38 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:44:38 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:44:38 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:44:38 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:44:39 - [31merror[39m: Error while getting test UUID for a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9: ENOENT: no such file or directory, open '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined/a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9.json'
+2025-08-26 16:44:39 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:44:39 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:44:39 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:44:39 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:44:39 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:47:25 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 16:47:25 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:47:25 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:47:25 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:47:25 - [32minfo[39m: SDK run started with id: d41d733c-00dd-4b1d-9d95-ae7671ff7491
+2025-08-26 16:47:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:47:25 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:47:25 - [32minfo[39m: SDK run started with id: d41d733c-00dd-4b1d-9d95-ae7671ff7491
+2025-08-26 16:47:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:47:27 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:47:27 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:47:27 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:47:27 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:47:28 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:47:28 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:47:28 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"839ed98a-dbef-4d1c-b923-9d430ffae1d3","listen":"unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock"}
+2025-08-26 16:47:28 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"839ed98a-dbef-4d1c-b923-9d430ffae1d3","listen":"unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock"}
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 839ed98a-dbef-4d1c-b923-9d430ffae1d3 and listen address: unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 839ed98a-dbef-4d1c-b923-9d430ffae1d3 and listen address: unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:47:28 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:47:29 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:47:29 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:47:29 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:47:31 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20410)
+    at BrowserstackCLI.bootstrap (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5881)
+    at Object._modifyPlaywright (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23459)
+    at Object.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module.newCompile2 (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Object.newLoader2 [as .ts] (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:135:16)
+    at requireOrImport (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:107:89)
+    at loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/common/configLoader.js:119:28)
+    at TestRunner._loadConfig (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:335:22)
+    at TestRunner._loadConfigOrReportError (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:349:31)
+    at TestRunner.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testRunner.js:158:20)
+    at TestServerDispatcher.listFiles (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright/lib/runner/testServer.js:151:24)
+    at i.<anonymous> (/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-08-26 16:47:31 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-08-26 16:47:31 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:31 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock
+2025-08-26 16:47:31 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:47:32 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:47:32 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:47:32 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:32 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:47:32 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:47:32 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:47:32 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 16:47:32 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=66268:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 16:47:32 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=6d0298101640f3965d0dcc540288823aa973ca51b4372a6430d7a841243914d3 target=66268:0
+2025-08-26 16:47:33 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:33 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock
+2025-08-26 16:47:33 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:47:33 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:47:33 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:47:33 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:33 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:47:33 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:47:33 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:47:33 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:33 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:47:33 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:47:33 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:47:33 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=66281:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:47:33 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=e34e19c4e740822107a428c6d5b53c0e8b06ca802d16b43c172a7e3bf0ce8de9 target=66281:0
+2025-08-26 16:47:33 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#5","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-chromium","browser_version":"latest","browserstack.testhubBuildUuid":"aobgvfr3ktloqaojlacvhnsh1m3e3osjm6v7h6nc","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 16:47:42 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:47:42 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:47:42 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-5eb582297e5f3412b29e
+2025-08-26 16:47:42 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '8b2b42d7-374e-40f2-9b89-230cb751f716',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '8b2b42d7-374e-40f2-9b89-230cb751f716',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - has title',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-5eb582297e5f3412b29e',
+  test_name: 'has title',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await (0, _test.expect)(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:47:33.417Z',
+  test_scope: 'example.spec.ts - has title',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts has title'
+}
+2025-08-26 16:47:42 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:47:42 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:47:42 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:47:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:47:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:47:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:47:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:47:43 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:43 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-839ed98a-dbef-4d1c-b923-9d430ffae1d3.sock
+2025-08-26 16:47:43 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:47:43 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:47:43 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:47:43 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:43 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:47:43 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:47:43 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:47:43 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:47:43 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:47:43 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 839ed98a-dbef-4d1c-b923-9d430ffae1d3
+2025-08-26 16:47:43 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:47:43 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=66322:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:47:43 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=6e2f3b543b0bb87b51db2495f92476fe930f7be6b73a7a2b900cff0a0bf72d90 target=66322:0
+2025-08-26 16:47:43 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#5","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-chromium","browser_version":"latest","browserstack.testhubBuildUuid":"aobgvfr3ktloqaojlacvhnsh1m3e3osjm6v7h6nc","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 16:47:52 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:47:52 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:47:52 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9
+2025-08-26 16:47:52 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'f4076d21-adfb-4c54-a082-e42a573cb096',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'f4076d21-adfb-4c54-a082-e42a573cb096',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - get started link',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9',
+  test_name: 'get started link',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:10',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await (0, _test.expect)(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:47:43.829Z',
+  test_scope: 'example.spec.ts - get started link',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts get started link'
+}
+2025-08-26 16:47:52 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:47:52 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:47:52 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:47:52 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:47:52 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:47:52 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:47:52 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:54:25 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 16:54:25 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:54:25 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 16:54:25 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:54:25 - [32minfo[39m: SDK run started with id: 17b99b0a-f063-4cdf-96d8-aaff48f4bb46
+2025-08-26 16:54:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:54:25 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 16:54:25 - [32minfo[39m: SDK run started with id: 17b99b0a-f063-4cdf-96d8-aaff48f4bb46
+2025-08-26 16:54:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 16:54:27 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:54:27 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 16:54:27 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:54:27 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 16:54:28 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:54:28 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 16:54:28 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"535feb82-d004-4913-855b-d57bd15edffb","listen":"unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock"}
+2025-08-26 16:54:28 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"535feb82-d004-4913-855b-d57bd15edffb","listen":"unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock"}
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 535feb82-d004-4913-855b-d57bd15edffb and listen address: unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 535feb82-d004-4913-855b-d57bd15edffb and listen address: unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 16:54:28 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 16:54:29 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:54:29 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:54:29 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 16:54:30 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:54:30 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock
+2025-08-26 16:54:30 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:54:31 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:54:31 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:54:31 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:54:31 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:54:31 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:54:31 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:54:31 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 16:54:31 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=67749:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 16:54:31 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=51995afd026b561d17c541886fbe87cf062df21aeebc444f39fcba84a54daad1 target=67749:0
+2025-08-26 16:54:32 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:54:32 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock
+2025-08-26 16:54:32 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:54:32 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:54:32 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:54:32 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:54:32 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:54:32 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:54:32 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:54:32 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:54:32 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:54:32 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:54:32 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:54:32 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=67764:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:54:32 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=afefd30f6db59213fe7a4f58c2ce77d5a29a5ccf87c8c2b8a333740839bed355 target=67764:0
+2025-08-26 16:54:32 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#6","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-chromium","browser_version":"latest","browserstack.testhubBuildUuid":"ki4mjkmtr8rwfkjqftv1fcgkgfhy598uyt0r6mvl","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 16:54:59 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:54:59 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:54:59 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-5eb582297e5f3412b29e
+2025-08-26 16:54:59 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'e38aa83d-bc86-464d-905c-c80203653614',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'e38aa83d-bc86-464d-905c-c80203653614',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - has title',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-5eb582297e5f3412b29e',
+  test_name: 'has title',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await expect(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:54:32.732Z',
+  test_scope: 'example.spec.ts - has title',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts has title'
+}
+2025-08-26 16:54:59 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:54:59 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:54:59 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:54:59 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:54:59 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:54:59 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:54:59 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:55:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:55:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-535feb82-d004-4913-855b-d57bd15edffb.sock
+2025-08-26 16:55:00 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 16:55:00 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 16:55:00 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 16:55:00 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:55:00 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 16:55:00 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 16:55:00 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 16:55:00 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:55:00 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 16:55:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 535feb82-d004-4913-855b-d57bd15edffb
+2025-08-26 16:55:00 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 16:55:00 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=67826:0, state=AutomationFrameworkState.CREATE
+2025-08-26 16:55:00 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=c56a0c7c52efd9db0f759be22563e7f2b0d0c2e2d4964c0de6a5813bcaa3bd0e target=67826:0
+2025-08-26 16:55:00 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#6","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-chromium","browser_version":"latest","browserstack.testhubBuildUuid":"ki4mjkmtr8rwfkjqftv1fcgkgfhy598uyt0r6mvl","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 16:55:08 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:55:08 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 16:55:08 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9
+2025-08-26 16:55:08 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '306f8027-cdf0-4298-b960-092f46334b7b',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '306f8027-cdf0-4298-b960-092f46334b7b',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - get started link',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9',
+  test_name: 'get started link',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:10',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await expect(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T09:55:00.353Z',
+  test_scope: 'example.spec.ts - get started link',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts get started link'
+}
+2025-08-26 16:55:08 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 16:55:08 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 16:55:08 - [32minfo[39m: getting screenshots results.
+2025-08-26 16:55:08 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 16:55:08 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 16:55:08 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 16:55:08 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 22:25:51 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 22:25:51 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 22:25:51 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 22:25:51 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 22:25:51 - [32minfo[39m: SDK run started with id: 295275df-5ac6-40b5-a28b-11fc33498c0c
+2025-08-26 22:25:51 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 22:25:51 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 22:25:51 - [32minfo[39m: SDK run started with id: 295275df-5ac6-40b5-a28b-11fc33498c0c
+2025-08-26 22:25:51 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 22:25:53 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 22:25:53 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 22:25:53 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 22:25:53 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 22:25:54 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 22:25:54 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 22:25:54 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"1319d61f-9a70-4f93-82dd-8eff175fccf5","listen":"unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock"}
+2025-08-26 22:25:54 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"1319d61f-9a70-4f93-82dd-8eff175fccf5","listen":"unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock"}
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 1319d61f-9a70-4f93-82dd-8eff175fccf5 and listen address: unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 1319d61f-9a70-4f93-82dd-8eff175fccf5 and listen address: unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 22:25:54 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 22:25:56 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 22:25:56 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 22:25:56 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 22:25:57 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:25:57 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock
+2025-08-26 22:25:57 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 22:25:59 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 22:25:59 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 22:25:59 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:25:59 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 22:25:59 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 22:25:59 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 22:25:59 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 22:25:59 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=15607:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 22:25:59 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=d6c7467faeaa6b97fa0b9d22a25f9d166c83b9c7e4605584023366990d4d6577 target=15607:0
+2025-08-26 22:26:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:26:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock
+2025-08-26 22:26:00 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 22:26:00 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 22:26:00 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 22:26:00 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:26:00 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 22:26:00 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 22:26:00 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 22:26:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:26:00 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 22:26:00 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 22:26:00 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 22:26:00 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=15623:0, state=AutomationFrameworkState.CREATE
+2025-08-26 22:26:00 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=21daed3574faa72ad553bec8f38efd24f8d4304b9f99b4d2cc8d085e9f0f9a1d target=15623:0
+2025-08-26 22:26:00 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#7","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on","channel":"chrome"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-chromium","browser_version":"latest","browserstack.testhubBuildUuid":"ej7rvhsjkyxglgolwsuoyq8twe0vhp6azivj8him","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 22:26:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 22:26:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 22:26:29 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-5eb582297e5f3412b29e
+2025-08-26 22:26:29 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'cc9a9f5b-c4f7-47c7-9db7-4f35198d95cd',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'cc9a9f5b-c4f7-47c7-9db7-4f35198d95cd',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - has title',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-5eb582297e5f3412b29e',
+  test_name: 'has title',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await expect(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T15:26:00.845Z',
+  test_scope: 'example.spec.ts - has title',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts has title'
+}
+2025-08-26 22:26:29 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 22:26:29 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 22:26:29 - [32minfo[39m: getting screenshots results.
+2025-08-26 22:26:29 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 22:26:29 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 22:26:29 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 22:26:29 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 22:26:30 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:26:30 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-1319d61f-9a70-4f93-82dd-8eff175fccf5.sock
+2025-08-26 22:26:30 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 22:26:30 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 22:26:30 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 22:26:30 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:26:30 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 22:26:30 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 22:26:30 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 22:26:30 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 22:26:30 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 22:26:30 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1319d61f-9a70-4f93-82dd-8eff175fccf5
+2025-08-26 22:26:30 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 22:26:30 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=15704:0, state=AutomationFrameworkState.CREATE
+2025-08-26 22:26:30 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=84f8f453b7e509da5517f054a353722cb428ca47a22be1e922098e4b1f00de07 target=15704:0
+2025-08-26 22:26:30 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#7","turboScaleOptions":{},"os":"Windows","os_version":11,"playwrightConfigOptions":{"use":{"trace":"on","channel":"chrome"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-chromium","browser_version":"latest","browserstack.testhubBuildUuid":"ej7rvhsjkyxglgolwsuoyq8twe0vhp6azivj8him","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 22:26:39 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 22:26:40 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 22:26:40 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9
+2025-08-26 22:26:40 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '49ea28bc-7a30-4b9b-8ffb-b61ca1a10986',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '49ea28bc-7a30-4b9b-8ffb-b61ca1a10986',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - get started link',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-a1cb090681948e3fd1a9',
+  test_name: 'get started link',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:10',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await expect(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T15:26:30.869Z',
+  test_scope: 'example.spec.ts - get started link',
+  test_scopes: [],
+  test_rerun_name: ' -latest:Windows 11-browserstack example.spec.ts get started link'
+}
+2025-08-26 22:26:40 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 22:26:40 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 22:26:40 - [32minfo[39m: getting screenshots results.
+2025-08-26 22:26:40 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 22:26:40 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 22:26:40 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 22:26:40 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 23:53:46 - [32minfo[39m: Reading configs from /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/browserstack.yml
+2025-08-26 23:53:46 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 23:53:46 - [32minfo[39m: Log Directory has been set to /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log
+2025-08-26 23:53:46 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 23:53:46 - [32minfo[39m: SDK run started with id: 8ef507ed-1516-4ff1-92b5-5557697d824f
+2025-08-26 23:53:46 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 23:53:46 - [32minfo[39m: Running SDK with args /Users/ngaquynh/.nvm/versions/node/v22.9.0/bin/node /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/node_modules/.bin/browserstack-node-sdk playwright test
+2025-08-26 23:53:46 - [32minfo[39m: SDK run started with id: 8ef507ed-1516-4ff1-92b5-5557697d824f
+2025-08-26 23:53:46 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-08-26 23:53:47 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 23:53:47 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-08-26 23:53:47 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 23:53:47 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/ngaquynh/.browserstack/cli/binary-macos-arm64
+2025-08-26 23:53:49 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 23:53:49 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/ngaquynh/.browserstack/cli/binary-macos-arm64,sdk'
+2025-08-26 23:53:49 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"f027b0b5-c632-4a56-ab19-2e2409973fad","listen":"unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock"}
+2025-08-26 23:53:49 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"f027b0b5-c632-4a56-ab19-2e2409973fad","listen":"unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock"}
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: f027b0b5-c632-4a56-ab19-2e2409973fad and listen address: unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: f027b0b5-c632-4a56-ab19-2e2409973fad and listen address: unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-08-26 23:53:49 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-08-26 23:53:50 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 23:53:50 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 23:53:50 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-08-26 23:53:52 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:53:52 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock
+2025-08-26 23:53:52 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 23:53:53 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 23:53:53 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 23:53:53 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:53:53 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 23:53:53 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 23:53:53 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 23:53:53 - [32minfo[39m: Setting up TestInfo directory at /Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/log/.obs_test_details-undefined
+2025-08-26 23:53:53 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=21517:0, state=TestFrameworkState.INIT_TEST
+2025-08-26 23:53:53 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=00f9fe9ecda8df9ce55bd59c43ef2e333a41eb4be24f4c78585017bc569d0fc3 target=21517:0
+2025-08-26 23:53:55 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:53:55 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock
+2025-08-26 23:53:55 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 23:53:55 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 23:53:55 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 23:53:55 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:53:55 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 23:53:55 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 23:53:55 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 23:53:55 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:53:55 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 23:53:55 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 23:53:55 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 23:53:55 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=21530:0, state=AutomationFrameworkState.CREATE
+2025-08-26 23:53:55 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=6c96efb911b11418eddd80ce482f31a2ec8268ade9b0e2317aec9456fc504e9e target=21530:0
+2025-08-26 23:53:55 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#8","turboScaleOptions":{},"os":"OS X","os_version":"Ventura","playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-webkit","browser_version":"latest","browserstack.testhubBuildUuid":"tzwkp23daheo5ihkaq4ntwzliwioeiwxszpjvvj5","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 23:54:01 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 23:54:01 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 23:54:01 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-a766803e3d2efd43a4d5
+2025-08-26 23:54:01 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'e1d3e51d-e563-4493-911f-9ccb58f2289a',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'e1d3e51d-e563-4493-911f-9ccb58f2289a',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - has title',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-a766803e3d2efd43a4d5',
+  test_name: 'has title',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await expect(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T16:53:55.562Z',
+  test_scope: 'example.spec.ts - has title',
+  test_scopes: [],
+  test_rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts has title'
+}
+2025-08-26 23:54:01 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 23:54:01 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 23:54:01 - [32minfo[39m: getting screenshots results.
+2025-08-26 23:54:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 23:54:01 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 23:54:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 23:54:01 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 23:54:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:54:02 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-f027b0b5-c632-4a56-ab19-2e2409973fad.sock
+2025-08-26 23:54:02 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-08-26 23:54:02 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-08-26 23:54:02 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-08-26 23:54:02 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:54:02 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-08-26 23:54:02 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-08-26 23:54:02 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-08-26 23:54:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 23:54:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: f027b0b5-c632-4a56-ab19-2e2409973fad
+2025-08-26 23:54:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-08-26 23:54:02 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-08-26 23:54:02 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=21557:0, state=AutomationFrameworkState.CREATE
+2025-08-26 23:54:02 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=8743cf0637c708067496bca048cf2d5e8b482d3eaf12415e6abd29bf26bb0d02 target=21557:0
+2025-08-26 23:54:02 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"ngaqunh_ROBxYt","browserstack.key":"iy4oCvvaYzPwF18xDwyN","build":"playwright-sdk-build-${BUILD_NUMBER:-1}","project":"Playwright BrowserStack Project","browserstack.debug":true,"browserstack.console":"info","browserstack.networkLogs":true,"browserstack.buildIdentifier":"#8","turboScaleOptions":{},"os":"OS X","os_version":"Ventura","playwrightConfigOptions":{"use":{"trace":"on"}},"browserstack.hostName":"Spaces-MacBook.lan","browserstack.browserstackSDK":"Playwright-nodeagent/1.41.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false},"browserstack.use_w3c":false,"browser":"playwright-webkit","browser_version":"latest","browserstack.testhubBuildUuid":"tzwkp23daheo5ihkaq4ntwzliwioeiwxszpjvvj5","browserstack.local":false,"browserstack.localIdentifier":null} 
+2025-08-26 23:54:07 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 23:54:07 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-08-26 23:54:07 - [32minfo[39m: [PlaywrightDriverModule] testId: a30a6eba6312f6b87ea5-f930b79e79ed95fc5973
+2025-08-26 23:54:07 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '79a6a86e-491d-44b8-befd-0cf049178382',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.55.0',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '79a6a86e-491d-44b8-befd-0cf049178382',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.ts - get started link',
+  test_file_path: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts',
+  test_id: 'a30a6eba6312f6b87ea5-f930b79e79ed95fc5973',
+  test_name: 'get started link',
+  test_location: '/Users/ngaquynh/Workspace/Better-bytes/better-bytes-academy/playwright-course/pw-browserstack/tests/example.spec.ts:10',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await expect(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-08-26T16:54:02.286Z',
+  test_scope: 'example.spec.ts - get started link',
+  test_scopes: [],
+  test_rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts get started link'
+}
+2025-08-26 23:54:07 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-08-26 23:54:07 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-08-26 23:54:07 - [32minfo[39m: getting screenshots results.
+2025-08-26 23:54:07 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-08-26 23:54:07 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-08-26 23:54:07 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-08-26 23:54:07 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
