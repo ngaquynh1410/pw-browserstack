@@ -17,20 +17,20 @@ platforms:
   #       channel: 'chrome'
         # Base URL nếu cần (tùy chọn)
         # baseURL: 'https://playwright.dev/'
-  - os: OS X
-    osVersion: Ventura
-    browserName: playwright-webkit  # WebKit cho Safari
-    browserVersion: latest
-    playwrightConfigOptions:
-      use:
-        trace: 'on'
-  # - os: Windows
-  #   osVersion: 11
-  #   browserName: playwright-firefox
+  # - os: OS X
+  #   osVersion: Ventura
+  #   browserName: playwright-webkit  # WebKit cho Safari
   #   browserVersion: latest
   #   playwrightConfigOptions:
   #     use:
   #       trace: 'on'
+  - os: OS X
+    osVersion: Ventura
+    browserName: playwright-firefox
+    browserVersion: latest
+    playwrightConfigOptions:
+      use:
+        trace: 'on'
 
 # Tùy chọn Local Testing (nếu test localhost/staging)
 browserstackLocal: false  # Set true nếu cần test nội bộ

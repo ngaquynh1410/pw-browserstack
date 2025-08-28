@@ -35,29 +35,35 @@ export default defineConfig({
   },
 
   /* Configure projects for major browsers */
-  // projects: [
-  //   {
-  //     name: 'chromium',
-  //     use: {
-  //       browserName: 'chromium',
-  //       // // Thông tin kết nối BrowserStack
-  //       // connectOptions: {
-  //       //   wsEndpoint: `wss://cdp.browserstack.com/playwright?caps=${encodeURIComponent(
-  //       //     JSON.stringify({
-  //       //       os: 'Windows',
-  //       //       os_version: '10',
-  //       //       browser: 'chrome',
-  //       //       browser_version: 'latest',
-  //       //       'browserstack.username': 'ngaqunh_ROBxYt',
-  //       //       'browserstack.accessKey': 'iy4oCvvaYzPwF18xDwyN',
-  //       //       'client.playwrightVersion': require('@playwright/test').version,
-  //       //     })
-  //       //   )}`,
-  //       // },
-  //     },
-  //   },
-  //   // Thêm các trình duyệt khác nếu muốn (firefox, webkit, edge, v.v.)
-  // ],
+  projects: [
+    // {
+    //   name: 'chromium',
+    //   use: {
+    //     browserName: 'chromium',
+    //     // // Thông tin kết nối BrowserStack
+    //     // connectOptions: {
+    //     //   wsEndpoint: `wss://cdp.browserstack.com/playwright?caps=${encodeURIComponent(
+    //     //     JSON.stringify({
+    //     //       os: 'Windows',
+    //     //       os_version: '10',
+    //     //       browser: 'chrome',
+    //     //       browser_version: 'latest',
+    //     //       'browserstack.username': 'ngaqunh_ROBxYt',
+    //     //       'browserstack.accessKey': 'iy4oCvvaYzPwF18xDwyN',
+    //     //       'client.playwrightVersion': require('@playwright/test').version,
+    //     //     })
+    //     //   )}`,
+    //     // },
+    //   },
+    // },
+    {
+      name: 'firefox',
+      use: {
+        browserName: 'firefox'
+      }
+    }
+    // Thêm các trình duyệt khác nếu muốn (firefox, webkit, edge, v.v.)
+  ],
 
   /* Run your local dev server before starting the tests */
   // webServer: {
