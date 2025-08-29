@@ -13,11 +13,9 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@playwright/test": "^1.55.0",
+    "@playwright/test": "1.51.0",
     "@types/node": "^24.3.0",
-    "browserstack-node-sdk": "^1.41.1"
-  },
-  "dependencies": {
+    "browserstack-node-sdk": "^1.41.1",
     "dotenv": "^17.2.1"
   }
 }

@@ -3798,3 +3798,2000 @@
 2025-08-27T03:28:05.063Z CLI info  [ngaqunh_ROBxYt]  [tzwkp23daheo5ihkaq4ntwzliwioeiwxszpjvvj5]  [f027b0b5-c632-4a56-ab19-2e2409973fad]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
 2025-08-27T03:28:05.063Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [tzwkp23daheo5ihkaq4ntwzliwioeiwxszpjvvj5]  [f027b0b5-c632-4a56-ab19-2e2409973fad]  [collectBuildData] Exception in collecting build data for build UUID tzwkp23daheo5ihkaq4ntwzliwioeiwxszpjvvj5: {"message":"Build data collection started"}
 2025-08-27T03:28:05.958Z CLI info  [ngaqunh_ROBxYt]  [tzwkp23daheo5ihkaq4ntwzliwioeiwxszpjvvj5]  [f027b0b5-c632-4a56-ab19-2e2409973fad]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-28T06:49:14.207Z CLI info     Config : {"userName":"ngaqunh_ROBxYt","accessKey":"iy4oCvvaYzPwF18xDwyN","framework":"playwright","platforms":[{"os":"OS X","osVersion":"Ventura","browserName":"playwright-webkit","browserVersion":"latest","playwrightConfigOptions":{"use":{"trace":"on"}}}],"browserstackLocal":false,"buildName":"playwright-sdk-build-${BUILD_NUMBER:-1}","projectName":"Playwright BrowserStack Project","testObservability":true,"debug":true,"consoleLogs":"info","networkLogs":true}
+2025-08-28T06:49:14.241Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Starting testhub from 11835:0
+2025-08-28T06:49:14.241Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [d56b7660-4406-4e29-a844-b7ce7ba3064d]  startBuild: payload=
+
+{"started_at":"2025-08-28T06:49:14.241Z","host_info":{"hostname":"Spaces-Mac-mini.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"8295b46c80e84d6fa08963e821a38ed2a08ced0a","short_sha":"8295b46c80","branch":"main","tag":null,"committer":"Nga <ngaquynh141001@gmail.com>","committer_date":"1756266187","author":"Nga <ngaquynh141001@gmail.com>","author_date":"1756266187","commit_message":"init project","root":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack","common_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","worktree_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"git@github.com:ngaquynh1410/pw-browserstack.git"}]},"project_name":"Playwright BrowserStack Project","name":"playwright-sdk-build-${BUILD_NUMBER:-1}","build_identifier":"#1","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.55.0","sdkVersion":"1.41.1","cliVersion":"1.6.11","language":"javascript","testFramework":{"name":"Playwright","version":"1.55.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-08-28T06:49:14.242Z CLI info  [ngaqunh_ROBxYt]   [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T06:49:15.366Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [d56b7660-4406-4e29-a844-b7ce7ba3064d]  startBuild: response=uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4
+2025-08-28T06:49:15.367Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-08-28T06:49:16.725Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-08-28T06:49:17.369Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-08-28T06:49:17.997Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-08-28T06:49:18.659Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-08-28T06:49:18.850Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-28T06:49:18.839Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 11835:0
+2025-08-28T06:49:19.378Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-28T06:49:18.839Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 11835:0
+2025-08-28T06:49:19.423Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T06:49:25.032Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+    integrations: { browserstack: [Object] }
+  }
+} to 11835:0
+2025-08-28T06:49:25.060Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.55.0","testFrameworkState":"TEST","timestamp":"2025-08-28T06:49:25.056Z","uuid":"82b39ac9-4593-41b7-9d74-08cddd596b14","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-28T06:49:25.056Z\",\"test_run_uuid\":\"82b39ac9-4593-41b7-9d74-08cddd596b14\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":18195,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":18195,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"82b39ac9-4593-41b7-9d74-08cddd596b14"}]
+2025-08-28T06:49:25.060Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  onLogCreatedEvent: LogCreated promise={}
+2025-08-28T06:49:25.061Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-28T06:49:25.039Z',
+      uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-28T06:49:25.040Z',
+      uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14'
+    }
+  ]
+} to 11835:0
+2025-08-28T06:49:25.061Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-28T06:49:25.056Z","fileName":"trace.zip","fileSize":18195,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"82b39ac9-4593-41b7-9d74-08cddd596b14"}]
+2025-08-28T06:49:25.061Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T06:49:25.066Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-28T06:49:25.050Z',
+      test_run_uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+      file_name: 'trace.zip',
+      file_size: 18195,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'failed',
+    duration_in_ms: 26,
+    started_at: '2025-08-28T06:49:18.839Z',
+    finished_at: '2025-08-28T06:49:18.865Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 11835:0
+2025-08-28T06:49:25.377Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '82b39ac9-4593-41b7-9d74-08cddd596b14',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'failed',
+      duration_in_ms: 26,
+      started_at: '2025-08-28T06:49:18.839Z',
+      finished_at: '2025-08-28T06:49:18.865Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 11835:0
+2025-08-28T06:49:25.718Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-28T06:49:25.715Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 11835:0
+2025-08-28T06:49:27.378Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-28T06:49:25.715Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 11835:0
+2025-08-28T06:49:28.324Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T06:49:29.200Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T06:49:32.531Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+    integrations: { browserstack: [Object] }
+  }
+} to 11835:0
+2025-08-28T06:49:32.550Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.55.0","testFrameworkState":"TEST","timestamp":"2025-08-28T06:49:32.549Z","uuid":"de9b459a-3385-4ab9-be50-cc09bf867d01","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-28T06:49:32.549Z\",\"test_run_uuid\":\"de9b459a-3385-4ab9-be50-cc09bf867d01\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":18273,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":18273,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"de9b459a-3385-4ab9-be50-cc09bf867d01"}]
+2025-08-28T06:49:32.550Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  onLogCreatedEvent: LogCreated promise={}
+2025-08-28T06:49:32.550Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-28T06:49:32.538Z',
+      uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-28T06:49:32.539Z',
+      uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01'
+    }
+  ]
+} to 11835:0
+2025-08-28T06:49:32.551Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-28T06:49:32.549Z","fileName":"trace.zip","fileSize":18273,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"de9b459a-3385-4ab9-be50-cc09bf867d01"}]
+2025-08-28T06:49:32.551Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T06:49:32.555Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-28T06:49:32.546Z',
+      test_run_uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+      file_name: 'trace.zip',
+      file_size: 18273,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'failed',
+    duration_in_ms: 19,
+    started_at: '2025-08-28T06:49:25.715Z',
+    finished_at: '2025-08-28T06:49:25.734Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 11835:0
+2025-08-28T06:49:33.380Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'de9b459a-3385-4ab9-be50-cc09bf867d01',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'failed',
+      duration_in_ms: 19,
+      started_at: '2025-08-28T06:49:25.715Z',
+      finished_at: '2025-08-28T06:49:25.734Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 11835:0
+2025-08-28T06:49:35.869Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T07:14:38.336Z CLI info [main]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  Received graceful signal termination, performing cleanup
+2025-08-28T07:14:38.341Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T07:14:39.445Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T07:14:39.446Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [collectBuildData] Exception in collecting build data for build UUID uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4: {"message":"Build data collection started"}
+2025-08-28T07:14:40.375Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-28T07:14:40.376Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [collectBuildData] Exception in collecting build data for build UUID uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4: {"message":"Build data collection started"}
+2025-08-28T07:14:41.263Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-28T07:14:41.264Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [collectBuildData] Exception in collecting build data for build UUID uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4: {"message":"Build data collection started"}
+2025-08-28T07:14:42.274Z CLI info  [ngaqunh_ROBxYt]  [uzmjfrkutav1zyi0zl6za9zdfeaat9xqe2u16yp4]  [d56b7660-4406-4e29-a844-b7ce7ba3064d]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-29T03:40:35.098Z CLI info     Config : {"userName":"ngaqunh_ROBxYt","accessKey":"iy4oCvvaYzPwF18xDwyN","framework":"playwright","platforms":[{"os":"OS X","osVersion":"Ventura","browserName":"playwright-webkit","browserVersion":"latest","playwrightConfigOptions":{"use":{"trace":"on"}}}],"browserstackLocal":false,"buildName":"playwright-sdk-build-${BUILD_NUMBER:-1}","projectName":"Playwright BrowserStack Project","testObservability":true,"debug":true,"consoleLogs":"info","networkLogs":true}
+2025-08-29T03:40:35.132Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [57417333-6521-499c-bb4a-cc6e89de61e1]  Starting testhub from 20850:0
+2025-08-29T03:40:35.133Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [57417333-6521-499c-bb4a-cc6e89de61e1]  startBuild: payload=
+
+{"started_at":"2025-08-29T03:40:35.133Z","host_info":{"hostname":"Spaces-Mac-mini.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"8295b46c80e84d6fa08963e821a38ed2a08ced0a","short_sha":"8295b46c80","branch":"main","tag":null,"committer":"Nga <ngaquynh141001@gmail.com>","committer_date":"1756266187","author":"Nga <ngaquynh141001@gmail.com>","author_date":"1756266187","commit_message":"init project","root":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack","common_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","worktree_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"git@github.com:ngaquynh1410/pw-browserstack.git"}]},"project_name":"Playwright BrowserStack Project","name":"playwright-sdk-build-${BUILD_NUMBER:-1}","build_identifier":"#2","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.55.0","sdkVersion":"1.41.1","cliVersion":"1.6.11","language":"javascript","testFramework":{"name":"Playwright","version":"1.55.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-08-29T03:40:35.133Z CLI info  [ngaqunh_ROBxYt]   [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:40:37.613Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [57417333-6521-499c-bb4a-cc6e89de61e1]  startBuild: response=irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2
+2025-08-29T03:40:37.615Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-08-29T03:40:39.614Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-08-29T03:40:40.477Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-08-29T03:40:41.306Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-08-29T03:40:42.047Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-08-29T03:40:42.165Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-29T03:40:42.156Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 20850:0
+2025-08-29T03:40:43.619Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-29T03:40:42.156Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 20850:0
+2025-08-29T03:40:43.619Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:40:47.553Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+    integrations: { browserstack: [Object] }
+  }
+} to 20850:0
+2025-08-29T03:40:47.591Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.55.0","testFrameworkState":"TEST","timestamp":"2025-08-29T03:40:47.581Z","uuid":"130c2dfd-4483-4dff-bad1-34da425d71a6","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-29T03:40:47.581Z\",\"test_run_uuid\":\"130c2dfd-4483-4dff-bad1-34da425d71a6\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":19424,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":19424,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"130c2dfd-4483-4dff-bad1-34da425d71a6"}]
+2025-08-29T03:40:47.591Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  onLogCreatedEvent: LogCreated promise={}
+2025-08-29T03:40:47.592Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:40:47.561Z',
+      uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:40:47.561Z',
+      uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6'
+    }
+  ]
+} to 20850:0
+2025-08-29T03:40:47.592Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-29T03:40:47.581Z","fileName":"trace.zip","fileSize":19424,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"130c2dfd-4483-4dff-bad1-34da425d71a6"}]
+2025-08-29T03:40:47.592Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:40:47.598Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-29T03:40:47.576Z',
+      test_run_uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+      file_name: 'trace.zip',
+      file_size: 19424,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'failed',
+    duration_in_ms: 34,
+    started_at: '2025-08-29T03:40:42.156Z',
+    finished_at: '2025-08-29T03:40:42.190Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 20850:0
+2025-08-29T03:40:47.620Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '130c2dfd-4483-4dff-bad1-34da425d71a6',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'failed',
+      duration_in_ms: 34,
+      started_at: '2025-08-29T03:40:42.156Z',
+      finished_at: '2025-08-29T03:40:42.190Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 20850:0
+2025-08-29T03:40:48.356Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-29T03:40:48.333Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 20850:0
+2025-08-29T03:40:49.621Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-29T03:40:48.333Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 20850:0
+2025-08-29T03:40:51.190Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:40:52.031Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+    integrations: { browserstack: [Object] }
+  }
+} to 20850:0
+2025-08-29T03:40:52.062Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:40:52.068Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.55.0","testFrameworkState":"TEST","timestamp":"2025-08-29T03:40:52.067Z","uuid":"bf705303-a04e-4696-be13-ab2505f58e2b","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-29T03:40:52.067Z\",\"test_run_uuid\":\"bf705303-a04e-4696-be13-ab2505f58e2b\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":19497,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":19497,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"bf705303-a04e-4696-be13-ab2505f58e2b"}]
+2025-08-29T03:40:52.068Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  onLogCreatedEvent: LogCreated promise={}
+2025-08-29T03:40:52.068Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:40:52.051Z',
+      uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:40:52.053Z',
+      uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b'
+    }
+  ]
+} to 20850:0
+2025-08-29T03:40:52.069Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-29T03:40:52.067Z","fileName":"trace.zip","fileSize":19497,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"bf705303-a04e-4696-be13-ab2505f58e2b"}]
+2025-08-29T03:40:52.081Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-29T03:40:52.064Z',
+      test_run_uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+      file_name: 'trace.zip',
+      file_size: 19497,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'failed',
+    duration_in_ms: 49,
+    started_at: '2025-08-29T03:40:48.333Z',
+    finished_at: '2025-08-29T03:40:48.382Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 20850:0
+2025-08-29T03:40:53.148Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:40:53.623Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'bf705303-a04e-4696-be13-ab2505f58e2b',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'failed',
+      duration_in_ms: 49,
+      started_at: '2025-08-29T03:40:48.333Z',
+      finished_at: '2025-08-29T03:40:48.382Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 20850:0
+2025-08-29T03:40:56.727Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:42:29.940Z CLI info [main]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  Received graceful signal termination, performing cleanup
+2025-08-29T03:42:29.952Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:42:30.899Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:42:30.899Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [collectBuildData] Exception in collecting build data for build UUID irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2: {"message":"Build data collection started"}
+2025-08-29T03:42:31.782Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:42:31.782Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [collectBuildData] Exception in collecting build data for build UUID irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2: {"message":"Build data collection started"}
+2025-08-29T03:42:32.699Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-29T03:42:32.700Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [collectBuildData] Exception in collecting build data for build UUID irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2: {"message":"Build data collection started"}
+2025-08-29T03:42:33.595Z CLI info  [ngaqunh_ROBxYt]  [irlcw5ea5sbenatyw5o6kxshwbs93dgfycbjsgh2]  [57417333-6521-499c-bb4a-cc6e89de61e1]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-29T03:42:58.925Z CLI info     Config : {"userName":"ngaqunh_ROBxYt","accessKey":"iy4oCvvaYzPwF18xDwyN","framework":"playwright","platforms":[{"os":"OS X","osVersion":"Ventura","browserName":"playwright-webkit","browserVersion":"1.52.0","playwrightConfigOptions":{"use":{"trace":"on"}}}],"browserstackLocal":false,"buildName":"playwright-sdk-build-${BUILD_NUMBER:-1}","projectName":"Playwright BrowserStack Project","testObservability":true,"debug":true,"consoleLogs":"info","networkLogs":true}
+2025-08-29T03:42:58.961Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Starting testhub from 21217:0
+2025-08-29T03:42:58.961Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  startBuild: payload=
+
+{"started_at":"2025-08-29T03:42:58.961Z","host_info":{"hostname":"Spaces-Mac-mini.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"8295b46c80e84d6fa08963e821a38ed2a08ced0a","short_sha":"8295b46c80","branch":"main","tag":null,"committer":"Nga <ngaquynh141001@gmail.com>","committer_date":"1756266187","author":"Nga <ngaquynh141001@gmail.com>","author_date":"1756266187","commit_message":"init project","root":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack","common_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","worktree_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"git@github.com:ngaquynh1410/pw-browserstack.git"}]},"project_name":"Playwright BrowserStack Project","name":"playwright-sdk-build-${BUILD_NUMBER:-1}","build_identifier":"#3","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.55.0","sdkVersion":"1.41.1","cliVersion":"1.6.11","language":"javascript","testFramework":{"name":"Playwright","version":"1.55.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-08-29T03:42:58.962Z CLI info  [ngaqunh_ROBxYt]   [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:43:00.916Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  startBuild: response=vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr
+2025-08-29T03:43:00.919Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-08-29T03:43:02.243Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-08-29T03:43:02.812Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-08-29T03:43:03.428Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-08-29T03:43:04.185Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-29T03:43:04.177Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -1.52.0:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 21217:0
+2025-08-29T03:43:04.370Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-08-29T03:43:04.921Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-29T03:43:04.177Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 21217:0
+2025-08-29T03:43:05.114Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:43:05.964Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+    integrations: { browserstack: [Object] }
+  }
+} to 21217:0
+2025-08-29T03:43:05.990Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.55.0","testFrameworkState":"TEST","timestamp":"2025-08-29T03:43:05.987Z","uuid":"f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-29T03:43:05.987Z\",\"test_run_uuid\":\"f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--1-52-0-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":19429,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":19429,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--1-52-0-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6"}]
+2025-08-29T03:43:05.990Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  onLogCreatedEvent: LogCreated promise={}
+2025-08-29T03:43:05.991Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:43:05.971Z',
+      uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:43:05.972Z',
+      uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6'
+    }
+  ]
+} to 21217:0
+2025-08-29T03:43:05.991Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--1-52-0-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-29T03:43:05.987Z","fileName":"trace.zip","fileSize":19429,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6"}]
+2025-08-29T03:43:05.994Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-29T03:43:05.982Z',
+      test_run_uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+      file_name: 'trace.zip',
+      file_size: 19429,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'failed',
+    duration_in_ms: 26,
+    started_at: '2025-08-29T03:43:04.177Z',
+    finished_at: '2025-08-29T03:43:04.203Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -1.52.0:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 21217:0
+2025-08-29T03:43:06.056Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:43:06.666Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-29T03:43:06.663Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -1.52.0:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 21217:0
+2025-08-29T03:43:06.920Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'f0fb1ffb-096f-47ae-84b2-2f1c0e7612c6',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'failed',
+      duration_in_ms: 26,
+      started_at: '2025-08-29T03:43:04.177Z',
+      finished_at: '2025-08-29T03:43:04.203Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-29T03:43:06.663Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 21217:0
+2025-08-29T03:43:08.854Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+    integrations: { browserstack: [Object] }
+  }
+} to 21217:0
+2025-08-29T03:43:08.876Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.55.0","testFrameworkState":"TEST","timestamp":"2025-08-29T03:43:08.874Z","uuid":"4d103e3a-926b-4aa5-ac8c-05127ca8bd54","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-29T03:43:08.874Z\",\"test_run_uuid\":\"4d103e3a-926b-4aa5-ac8c-05127ca8bd54\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--1-52-0-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":19508,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":19508,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--1-52-0-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"4d103e3a-926b-4aa5-ac8c-05127ca8bd54"}]
+2025-08-29T03:43:08.876Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  onLogCreatedEvent: LogCreated promise={}
+2025-08-29T03:43:08.876Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:43:08.861Z',
+      uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.55.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:43:08.862Z',
+      uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54'
+    }
+  ]
+} to 21217:0
+2025-08-29T03:43:08.876Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--1-52-0-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-29T03:43:08.874Z","fileName":"trace.zip","fileSize":19508,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"4d103e3a-926b-4aa5-ac8c-05127ca8bd54"}]
+2025-08-29T03:43:08.878Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-29T03:43:08.872Z',
+      test_run_uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+      file_name: 'trace.zip',
+      file_size: 19508,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'failed',
+    duration_in_ms: 23,
+    started_at: '2025-08-29T03:43:06.663Z',
+    finished_at: '2025-08-29T03:43:06.686Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -1.52.0:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 21217:0
+2025-08-29T03:43:08.921Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '4d103e3a-926b-4aa5-ac8c-05127ca8bd54',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'failed',
+      duration_in_ms: 23,
+      started_at: '2025-08-29T03:43:06.663Z',
+      finished_at: '2025-08-29T03:43:06.686Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 21217:0
+2025-08-29T03:43:09.274Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:43:10.138Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:43:13.527Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:44:03.243Z CLI info [main]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  Received graceful signal termination, performing cleanup
+2025-08-29T03:44:03.256Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:44:04.052Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:44:04.053Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [collectBuildData] Exception in collecting build data for build UUID vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr: {"message":"Build data collection started"}
+2025-08-29T03:44:04.960Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:44:04.961Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [collectBuildData] Exception in collecting build data for build UUID vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr: {"message":"Build data collection started"}
+2025-08-29T03:44:05.865Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-29T03:44:05.865Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [collectBuildData] Exception in collecting build data for build UUID vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr: {"message":"Build data collection started"}
+2025-08-29T03:44:06.643Z CLI info  [ngaqunh_ROBxYt]  [vevlf6cjqh3ae67hq6r5qwj5nrqtf4pyec2dh5hr]  [8a44f0b5-5c7d-43a1-9311-6ed1f84b4fa2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-29T03:47:28.703Z CLI info     Config : {"userName":"ngaqunh_ROBxYt","accessKey":"iy4oCvvaYzPwF18xDwyN","framework":"playwright","platforms":[{"os":"OS X","osVersion":"Ventura","browserName":"playwright-webkit","browserVersion":"latest","playwrightConfigOptions":{"use":{"trace":"on"}}}],"browserstackLocal":false,"buildName":"playwright-sdk-build-${BUILD_NUMBER:-1}","projectName":"Playwright BrowserStack Project","testObservability":true,"debug":true,"consoleLogs":"info","networkLogs":true}
+2025-08-29T03:47:28.735Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Starting testhub from 22127:0
+2025-08-29T03:47:28.736Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  startBuild: payload=
+
+{"started_at":"2025-08-29T03:47:28.735Z","host_info":{"hostname":"Spaces-Mac-mini.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"8295b46c80e84d6fa08963e821a38ed2a08ced0a","short_sha":"8295b46c80","branch":"main","tag":null,"committer":"Nga <ngaquynh141001@gmail.com>","committer_date":"1756266187","author":"Nga <ngaquynh141001@gmail.com>","author_date":"1756266187","commit_message":"init project","root":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack","common_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","worktree_git_dir":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"git@github.com:ngaquynh1410/pw-browserstack.git"}]},"project_name":"Playwright BrowserStack Project","name":"playwright-sdk-build-${BUILD_NUMBER:-1}","build_identifier":"#4","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.51.0","sdkVersion":"1.41.1","cliVersion":"1.6.11","language":"javascript","testFramework":{"name":"Playwright","version":"1.51.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-08-29T03:47:28.736Z CLI info  [ngaqunh_ROBxYt]   [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:47:30.582Z CLI info [testhub:module]  [ngaqunh_ROBxYt]   [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  startBuild: response=xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl
+2025-08-29T03:47:30.584Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-08-29T03:47:32.007Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-08-29T03:47:32.619Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-08-29T03:47:33.238Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-08-29T03:47:33.660Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-08-29T03:47:34.081Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-29T03:47:34.073Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 22127:0
+2025-08-29T03:47:34.586Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-29T03:47:34.073Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 22127:0
+2025-08-29T03:47:34.587Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:47:39.011Z CLI info [accessibility:module]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  onDriverInit: b0e2e5ad-0e84-4804-b68a-4e13d12e4c87 platformIndex=0
+2025-08-29T03:47:39.011Z CLI info [accessibility:module]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  onDriverInit: b0e2e5ad-0e84-4804-b68a-4e13d12e4c87 platformIndex=0 isSupported=false
+2025-08-29T03:47:40.064Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+    integrations: { browserstack: [Object] }
+  }
+} to 22127:0
+2025-08-29T03:47:40.589Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      integrations: [Object]
+    }
+  }
+] to 22127:0
+2025-08-29T03:47:40.591Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:47:44.989Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+    integrations: { browserstack: [Object] }
+  }
+} to 22127:0
+2025-08-29T03:47:45.615Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+    integrations: { browserstack: [Object] }
+  }
+} to 22127:0
+2025-08-29T03:47:46.341Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.51.0","testFrameworkState":"TEST","timestamp":"2025-08-29T03:47:46.336Z","uuid":"c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-29T03:47:46.336Z\",\"test_run_uuid\":\"c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":1128164,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":1128164,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f"}]
+2025-08-29T03:47:46.341Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  onLogCreatedEvent: LogCreated promise={}
+2025-08-29T03:47:46.342Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.51.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:47:40.695Z',
+      uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      kind: 'TEST_STEP',
+      message: 'page.goto(https://playwright.dev/)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.51.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:47:42.302Z',
+      uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      kind: 'TEST_STEP',
+      message: 'expect.toHaveTitle',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f'
+    }
+  ]
+} to 22127:0
+2025-08-29T03:47:46.342Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-has-title--latest-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-29T03:47:46.336Z","fileName":"trace.zip","fileSize":1128164,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f"}]
+2025-08-29T03:47:46.342Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:47:46.347Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-29T03:47:46.338Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 22127:0
+2025-08-29T03:47:46.352Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-29T03:47:46.322Z',
+      test_run_uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      file_name: 'trace.zip',
+      file_size: 1128164,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+    name: 'has title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Expect a title "to contain" a substring.\n' +
+        '  await expect(page).toHaveTitle(/Playwright/);\n' +
+        '}'
+    },
+    identifier: 'has title',
+    scope: 'has title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'passed',
+    duration_in_ms: 7237,
+    started_at: '2025-08-29T03:47:34.073Z',
+    finished_at: '2025-08-29T03:47:41.310Z',
+    failure: null,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts has title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 22127:0
+2025-08-29T03:47:46.593Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-29T03:47:46.338Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'c5ce0d81-f2f4-408f-9aa2-96a3b29fde1f',
+      name: 'has title',
+      body: [Object],
+      identifier: 'has title',
+      scope: 'has title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'passed',
+      duration_in_ms: 7237,
+      started_at: '2025-08-29T03:47:34.073Z',
+      finished_at: '2025-08-29T03:47:41.310Z',
+      failure: null,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 22127:0
+2025-08-29T03:47:47.220Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+    integrations: { browserstack: [Object] }
+  }
+} to 22127:0
+2025-08-29T03:47:48.595Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      integrations: [Object]
+    }
+  }
+] to 22127:0
+2025-08-29T03:47:51.750Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:47:52.568Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:47:52.978Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+    integrations: { browserstack: [Object] }
+  }
+} to 22127:0
+2025-08-29T03:47:53.559Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+    integrations: { browserstack: [Object] }
+  }
+} to 22127:0
+2025-08-29T03:47:54.251Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  uploadAttachmentEvents: attachmentEvents=[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.51.0","testFrameworkState":"TEST","timestamp":"2025-08-29T03:47:54.249Z","uuid":"e171d663-c0f4-434b-ab5c-c1d37a0657ad","kind":"TEST_ATTACHMENT","message":"{\"kind\":\"TEST_ATTACHMENT\",\"timestamp\":\"2025-08-29T03:47:54.249Z\",\"test_run_uuid\":\"e171d663-c0f4-434b-ab5c-c1d37a0657ad\",\"fileName\":\"trace.zip\",\"filePath\":\"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip\",\"fileSize\":1436127,\"attachment_type\":\"PLAYWRIGHT_TRACE_LOGS\"}","fileName":"trace.zip","fileSize":{"low":1436127,"high":0,"unsigned":false},"filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip","attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"e171d663-c0f4-434b-ab5c-c1d37a0657ad"}]
+2025-08-29T03:47:54.252Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  onLogCreatedEvent: LogCreated promise={}
+2025-08-29T03:47:54.252Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.51.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:47:47.856Z',
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      kind: 'TEST_STEP',
+      message: 'page.goto(https://playwright.dev/)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.51.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:47:49.042Z',
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      kind: 'TEST_STEP',
+      message: "locator.getByRole('link', { name: 'Get started' }).click",
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.51.0',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-08-29T03:47:49.425Z',
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      kind: 'TEST_STEP',
+      message: 'expect.toBeVisible',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad'
+    }
+  ]
+} to 22127:0
+2025-08-29T03:47:54.252Z CLI info [TEST REPORTING AND ANALYTICS:node]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  uploadAttachmentEvents: transformedEvents=[{"kind":"TEST_ATTACHMENT","filePath":"/Users/spacespace/workspace/better-bytes-academy/pw-browserstack/test-results/example-get-started-link--latest-OSX-Ventura-browserstack/trace.zip","timestamp":"2025-08-29T03:47:54.249Z","fileName":"trace.zip","fileSize":1436127,"attachmentType":"PLAYWRIGHT_TRACE_LOGS","test_run_uuid":"e171d663-c0f4-434b-ab5c-c1d37a0657ad"}]
+2025-08-29T03:47:54.252Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:47:54.256Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [
+    {
+      kind: 'TEST_ATTACHMENT',
+      timestamp: '2025-08-29T03:47:54.244Z',
+      test_run_uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      file_name: 'trace.zip',
+      file_size: 1436127,
+      attachment_type: 'PLAYWRIGHT_TRACE_LOGS'
+    }
+  ],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+    name: 'get started link',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://playwright.dev/');\n" +
+        '\n' +
+        '  // Click the get started link.\n' +
+        "  await page.getByRole('link', {\n" +
+        "    name: 'Get started'\n" +
+        '  }).click();\n' +
+        '\n' +
+        '  // Expects page to have a heading with the name of Installation.\n' +
+        "  await expect(page.getByRole('heading', {\n" +
+        "    name: 'Installation'\n" +
+        '  })).toBeVisible();\n' +
+        '}'
+    },
+    identifier: 'get started link',
+    scope: 'get started link',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests/example.spec.ts',
+    vc_filepath: 'tests/example.spec.ts',
+    location: 'tests/example.spec.ts',
+    result: 'passed',
+    duration_in_ms: 7834,
+    started_at: '2025-08-29T03:47:46.338Z',
+    finished_at: '2025-08-29T03:47:54.172Z',
+    failure: null,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack example.spec.ts get started link'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 22127:0
+2025-08-29T03:47:54.598Z CLI info [testhub:request-queue-handler]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [ [Object] ],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'e171d663-c0f4-434b-ab5c-c1d37a0657ad',
+      name: 'get started link',
+      body: [Object],
+      identifier: 'get started link',
+      scope: 'get started link',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests/example.spec.ts',
+      vc_filepath: 'tests/example.spec.ts',
+      location: 'tests/example.spec.ts',
+      result: 'passed',
+      duration_in_ms: 7834,
+      started_at: '2025-08-29T03:47:46.338Z',
+      finished_at: '2025-08-29T03:47:54.172Z',
+      failure: null,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 22127:0
+2025-08-29T03:47:59.407Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:48:00.239Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-29T03:48:00.239Z CLI error [testhub:module]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [collectBuildData] Exception in collecting build data for build UUID xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl: {"message":"Build data collection started"}
+2025-08-29T03:48:01.050Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-29T03:48:01.803Z CLI info [testhub:module]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  stopBuild: xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl request={"finished_at":"2025-08-29T03:47:54.340Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-08-29T03:48:01.805Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-08-29T03:48:01.806Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Visit https://automation.browserstack.com/builds/xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl to view build report, insights, and many more debugging information all at one place!
+2025-08-29T03:48:02.232Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-08-29T03:48:02.693Z CLI info  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-08-29T03:48:08.842Z CLI info [main]  [ngaqunh_ROBxYt]  [xtnbme8sufowtkrb6s1z07ibrvy8mgtecnuldvtl]  [b0e2e5ad-0e84-4804-b68a-4e13d12e4c87]  Received graceful signal termination, performing cleanup
